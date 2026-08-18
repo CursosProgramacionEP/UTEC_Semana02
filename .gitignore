@@ -1,0 +1,24 @@
+# Directorios de compilación
+cmake-build-*/
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# Binarios y objetos
+*.o
+*.out
+*.exe
+*.dSYM/
+
+# Ejecutables sin extensión que CLion deja junto al .cpp al ejecutar
+# un archivo suelto. Se ignora todo lo que no tenga extensión dentro
+# de las carpetas de sesión; los .cpp y demás archivos con extensión sí se versionan.
+Sesion_*/**
+!Sesion_*/**/
+!Sesion_*/**/*.*
+
+# Configuración local del IDE
+.idea/
+
+# macOS
+.DS_Store
