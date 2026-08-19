@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <string>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -17,7 +18,8 @@ int main() {
     cout << "Ingrese c: ";
     cin >> c;
 
-    delta = b*b - 4*a*c;
+    delta=pow(b,2)-a*c;
+    //delta = b*b - 4*a*c;
 
     if (delta == 0) {
         cout << "Las raíces reales dobles";
